@@ -1,0 +1,81 @@
+.nav_ele {
+    /* display:inline-block; */
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-left: 32px;
+    padding-right: 32px;
+    float: left;
+    margin-right: 2px;
+}
+
+.nav_ele:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 123, 255);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+div a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 110, 255);
+}
+
+
+select:invalid{
+    color: gray;
+}
+option{
+    color: black;
+}
+
+.welcome{
+    display: inline-block;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 24px;
+  
+}
+
+.main{
+    float: left;
+    position: static;
+}
+
+.cbody {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cdiv {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  
+ 
+  .rest{
+      padding-left: 299px;
+      padding-top: 400px;
+  }
+  .rest2{
+      padding-left: 300px;
+      padding-top: 20px;
+  }
