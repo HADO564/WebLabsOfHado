@@ -10,7 +10,8 @@
   <body style="background-color: black;">
     <div class="container">
       <div class="calc-container">
-        <input type="text" id="main" rows="3" cols="4" style="height: 80px; width: 300px; font-size: 60px;">
+        <input type="text" id="main" rows="3" cols="4" style="height: 80px; width: 315px; font-size: 45px;border-radius: 15%;padding-left: 80px;">
+        <div style="height: 2px;"></div>
         <div class="buttons">
             <div class="row1">
             <button class="calc-mbutton">MC</button>
@@ -37,14 +38,14 @@
         <button class="calc-mbutton">M+</button>
         <button class="calc-button" onclick="document.getElementById('main').value+='9'">9</button>
         <button class="calc-button" onclick="comp()">±</button>
-        <button class="calc-button" onclick="">x2</button>
-        <button class="calc-button">/</button>
+        <button class="calc-button" onclick="exp()">x<sup>2</sup></button>
+        <button class="calc-button" onclick="document.getElementById('main').value+='/'">/</button>
     </div>
     <div class="row1">
-        <button class="calc-button "onclick="document.getElementById('main').value+='/'">1/x</button>
+        <button class="calc-button ">1/x</button>
         <button class="calc-button "onclick="decimal()">.</button>
-            <button class="calc-button">=</button>
-            <button class="calc-button">√</button>
+            <button class="calc-button"onclick="solve()">=</button>
+            <button class="calc-button"onclick="document.getElementById('main').value+='√'" >√</button>
             <button class="calc-button"onclick="document.getElementById('main').value=''">UC</button>
         </div>
         </div>

@@ -18,3 +18,15 @@ function comp() {
         x = "+" + x;
     document.getElementById('main').value = x;
 }
+
+function solve(){
+    let x = document.getElementById('main').value;
+    x=eval(x);
+    if(x=="Infinity")
+    x="Math Error";
+    document.getElementById('main').value=x;
+}
+
+function exp(){
+    let x = document.getElementById('main').value;
+}
